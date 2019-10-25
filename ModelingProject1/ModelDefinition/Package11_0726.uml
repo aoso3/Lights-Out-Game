@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="55da377f-0970-4ef3-ba34-f33f2744fa09"
+  name="Themes"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3163d0cd-5f6c-4799-b356-300ede4d3269"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTelerik.WinControls.Themes"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="23399fe9-1500-41c3-96fc-805bf3036f0f"
+        name="TelerikMetroBlueTheme"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5a0c2ff9-b0d6-4754-8360-522bde006718"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FTelerik%2FUI for WinForms Q2 2014%2FBin40%2FTelerik.WinControls.Themes.TelerikMetroBlue.dll&quot; Namespace%3DTelerik.WinControls.Themes Type%3DTelerikMetroBlueTheme"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="aa63caa7-8f6e-437b-8b78-e77c66576cea"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2829668-ac1d-430f-be16-a4aa12d7ef8b">
+                <propertyInstance
+                  Id="92cd03c4-f581-46fa-be8f-ebe49dd7c797"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e99f868a-ce15-4bd5-bb64-2b23f86ae58b">
+                <propertyInstance
+                  Id="1f3fcdc6-6233-48eb-9088-785692e284b3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2a3fa66-5bc9-43ac-b557-1494776419d6">
+                <propertyInstance
+                  Id="6e8f6f9b-9364-4648-bef3-4d6222305925"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac8f254c-cf1b-4410-9083-fb14e1eda026">
+                <propertyInstance
+                  Id="11d6702e-9795-4c29-a7a5-bac2587cc4e9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="559293d6-45af-424f-87d6-87a43a88c586">
+                <propertyInstance
+                  Id="820e53da-405c-4b01-bdf9-10e4e290b1ab"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

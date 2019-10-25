@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f8b702ad-70bc-4398-86a1-141974e80e68"
+  name="UI"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="82c9278f-b83e-47fc-a95f-f898d1e51c00"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTelerik.WinControls.UI"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3d4a8e79-0641-44c2-a1b6-16d6c2adb4fb"
+        name="RadButton"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d89cf391-0f1d-4612-8416-678970a4756d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FTelerik%2FUI for WinForms Q2 2014%2FBin40%2FTelerik.WinControls.UI.dll&quot; Namespace%3DTelerik.WinControls.UI Type%3DRadButton"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="db549d34-7501-451e-aa8b-7d6356b7f895"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d6fe1dd-34a4-4d74-b4ca-73da63b57dcf">
+                <propertyInstance
+                  Id="4053a5cb-8261-41be-af38-62b5b46681bf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b860c753-8484-4cc7-9e32-115d0f8d474e">
+                <propertyInstance
+                  Id="6cca6862-0720-40d5-aafe-fd52a065607a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a527b6c2-7a71-40fc-8827-5bd7384b1402">
+                <propertyInstance
+                  Id="a1de8a52-c5ff-4983-b056-abe2cd24e938"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d410634-8385-45e9-8669-c396ada74aa2">
+                <propertyInstance
+                  Id="24fa89cc-f35c-4d05-a054-8b692a77cf8e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc924eaf-5ef2-401c-a654-999caa3d03a3">
+                <propertyInstance
+                  Id="1fa7d406-ac96-4c7d-b612-ac0e19bd7c3a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6336b9b7-466f-4cb7-8676-8581d7e5f4e6"
+        name="RadDropDownList"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b952bfa2-ec15-448a-a6fe-27ea536d37e9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FTelerik%2FUI for WinForms Q2 2014%2FBin40%2FTelerik.WinControls.UI.dll&quot; Namespace%3DTelerik.WinControls.UI Type%3DRadDropDownList"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="61d58476-1ee2-4208-a628-d566d149af5e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a348666a-1862-4f3f-8878-b359a4306158">
+                <propertyInstance
+                  Id="dc2a90c5-2fce-4486-a409-f925bcf08fa3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ee700c6-b6fb-4569-8a2d-260c60bfec9e">
+                <propertyInstance
+                  Id="5fc3df61-49f6-4838-a2ed-64e43e198682"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7620182-09a9-45ba-981a-3616d3501640">
+                <propertyInstance
+                  Id="88fb8c17-dcff-4b62-b19f-b711bea29832"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a3514e3-6edd-42bc-a982-1f5d612d1ac5">
+                <propertyInstance
+                  Id="d49ae3b1-3834-47bd-8f90-2b81c415025e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="42e3baf6-c85f-4dc7-ba11-3f9dc64c7e74">
+                <propertyInstance
+                  Id="0634d692-1d80-47f3-be4b-3f31639e867a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b4c5e487-6abe-418d-8eb0-d5a6a2c537e1"
+        name="RadLabel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bf1002e0-99f3-48e0-a588-0a60e996d640"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FTelerik%2FUI for WinForms Q2 2014%2FBin40%2FTelerik.WinControls.UI.dll&quot; Namespace%3DTelerik.WinControls.UI Type%3DRadLabel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="065a24d9-4b75-4559-b27a-d68c6f12da44"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0dc9b992-55f4-483f-b584-620cfccc06c5">
+                <propertyInstance
+                  Id="41cbc825-190d-4f6c-b589-c05b892b5f46"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db0e4df0-cf92-4ffe-ba3b-f5c1d247a8cd">
+                <propertyInstance
+                  Id="0ff6ddd8-16e7-425b-8158-c47a9abbffd2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e715d11-e5dd-4b81-98a5-9c6f2140078b">
+                <propertyInstance
+                  Id="bbbe2efb-bfc5-4321-a363-e530ad509fce"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40f4ca05-7299-488b-8eae-6758d4408c74">
+                <propertyInstance
+                  Id="90dc5955-8261-4138-a29e-582520bdfde1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21fb49bc-16bf-47f2-b351-7dd9e30a9135">
+                <propertyInstance
+                  Id="3eabda73-e034-42ff-8cb7-b76d52f0343a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b8855456-50a7-46f9-b687-47e390b2445c"
+        name="RadPanel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7cdc63ca-54dd-4dcf-812d-d151d4c459f3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FTelerik%2FUI for WinForms Q2 2014%2FBin40%2FTelerik.WinControls.UI.dll&quot; Namespace%3DTelerik.WinControls.UI Type%3DRadPanel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d7efddb3-a9db-436a-94e3-e0941c6e83ac"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2b7ef9e-b4bd-4b43-836a-6c26f6330eea">
+                <propertyInstance
+                  Id="38b8c7d8-7795-44ac-8503-bf5495280953"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61049825-1321-48be-94cb-2b97cb4874a0">
+                <propertyInstance
+                  Id="e743baed-de6d-43ab-9117-67035eff949b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c74c832-c9c8-4829-8fd9-48bc46719f54">
+                <propertyInstance
+                  Id="649833fe-cc3a-492d-8e67-60b42580745d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4fbb75f1-d9d8-439c-802f-c6c9dfc3c887">
+                <propertyInstance
+                  Id="0a1a4ee6-5065-416c-bf8a-4ca1e07c71c3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="57308365-f3de-4b22-834a-1afac8bae43c">
+                <propertyInstance
+                  Id="3bfa476e-cccf-4917-ba93-94029b0d60c4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9999cbfb-83ac-43de-8201-e28d6760bb8f"
+        name="RadForm"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="be1e6d4f-770c-47d6-8a04-0146f6a152d0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FTelerik%2FUI for WinForms Q2 2014%2FBin40%2FTelerik.WinControls.UI.dll&quot; Namespace%3DTelerik.WinControls.UI Type%3DRadForm"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="996725f5-3367-4f2a-838e-779ffeea1799"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7987b90b-a977-4392-80c2-dcc1be8b51f1">
+                <propertyInstance
+                  Id="06e6d475-4708-434e-841c-fa18f794527d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4ec327c-e566-4eb9-914b-8fd5a61e9252">
+                <propertyInstance
+                  Id="c80ea60d-6cbb-40a4-af93-547d56df7a95"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14db0bb6-4dfa-460e-9453-27ca7775a910">
+                <propertyInstance
+                  Id="264bf5fa-03f1-4024-ba50-74bbc4e86f0d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99eb7986-e325-456e-8dad-8128d8f4adab">
+                <propertyInstance
+                  Id="51a65ae7-efb5-4949-b069-4c537900640d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7efb66ac-ec6a-4b11-9e1b-eaf467528113">
+                <propertyInstance
+                  Id="41808f1f-da2a-46bf-a2b9-2e45bb5bd6c4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
